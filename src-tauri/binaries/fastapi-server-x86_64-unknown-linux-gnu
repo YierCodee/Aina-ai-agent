@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# PLACEHOLDER dev — diganti binary PyInstaller via ./backend/build_sidecar.sh
+exec python3 "$0/../.." 2>/dev/null || echo "fastapi-server placeholder: jalankan ./backend/build_sidecar.sh untuk binary asli"
